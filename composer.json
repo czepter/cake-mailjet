@@ -2,6 +2,8 @@
     "name": "czepter/cake-mailjet",
     "description": "Mailjet plugin for CakePHP. Allows sending emails via Mailjet by using the provided Mailjet SDK.",
     "type": "cakephp-plugin",
+    "keywords": ["cakephp", "mailer", "mailertransport", "mailjet"],
+    "homepage": "https://github.com/czepter/cake-mailjet",
     "license": "MIT",
     "require": {
         "cakephp/cakephp": "^3.7",
@@ -20,5 +22,19 @@
             "CakeMailjet\\Test\\": "tests/",
             "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
         }
+    },
+    "authors": [{
+            "name": "Christian Zepter",
+            "homepage": "https://czepter.de",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/czepter/cake-mailjet/graphs/contributors",
+            "role": "Contributor"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/czepter/cake-mailjet"
     }
 }

@@ -14,7 +14,7 @@ You can install this plugin into your CakePHP application using [composer](https
 The recommended way to install composer packages is:
 
 ```
-composer require czepter/mailjet
+composer require czepter/cake-mailjet
 ```
 
 load this plugin into your src/AppController.php with:
