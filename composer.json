@@ -1,0 +1,24 @@
+{
+    "name": "czepter/cake-mailjet",
+    "description": "Mailjet plugin for CakePHP. Allows sending emails via Mailjet by using the provided Mailjet SDK.",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "^3.7",
+        "mailjet/mailjet-apiv3-php": "^1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.14|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CakeMailjet\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CakeMailjet\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
